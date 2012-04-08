@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+    html { height: 100% }
+    body { height: 100%; margin: 0; padding: 0 }
+    #map_canvas { height: 100% }
+  </style>
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCfNCWgClsxmKxfM4HQKorXMzksXRCzA_E&sensor=false"></script>
+  <script>
+    function initialize() {
+      var myOptions = {
+        center: new google.maps.LatLng(53.946, -2.520),
+        zoom: 6,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
+      var map = new google.maps.Map(document.getElementById("map_canvas"),
+          myOptions);
+var infowindow1 = new google.maps.InfoWindow({
+	  content: "<h1>Aldgate</h1><p>EC2M 4TP</p>"
+  });
+  
+  var marker1 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.5172353,-0.0793101)),
+	  map: map,
+	  title:"Aldgate"
+  });
+  
+  google.maps.event.addListener(marker1, 'click', function() {
+	infowindow1.open(map,marker1);
+  });
+var infowindow2 = new google.maps.InfoWindow({
+	  content: "<h1>Barnard&nbsp;Castle</h1><p>...</p>"
+  });
+  
+  var marker2 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(54.54528,-1.92379)),
+	  map: map,
+	  title:"Barnard&nbsp;Castle"
+  });
+  
+  google.maps.event.addListener(marker2, 'click', function() {
+	infowindow2.open(map,marker2);
+  });
+var infowindow3 = new google.maps.InfoWindow({
+	  content: "<h1>Bath</h1><p>BA1 1SR</p>"
+  });
+  
+  var marker3 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.3783795,-2.3561614)),
+	  map: map,
+	  title:"Bath"
+  });
+  
+  google.maps.event.addListener(marker3, 'click', function() {
+	infowindow3.open(map,marker3);
+  });
+var infowindow4 = new google.maps.InfoWindow({
+	  content: "<h1>Birmingham</h1><p>...</p>"
+  });
+  
+  var marker4 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(52.486243,-1.890401)),
+	  map: map,
+	  title:"Birmingham"
+  });
+  
+  google.maps.event.addListener(marker4, 'click', function() {
+	infowindow4.open(map,marker4);
+  });
+var infowindow5 = new google.maps.InfoWindow({
+	  content: "<h1>Bletchley</h1><p>National Museum of Computing, Bletchley Park</p>"
+  });
+  
+  var marker5 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(52.002175,-0.750137)),
+	  map: map,
+	  title:"Bletchley"
+  });
+  
+  google.maps.event.addListener(marker5, 'click', function() {
+	infowindow5.open(map,marker5);
+  });
+var infowindow6 = new google.maps.InfoWindow({
+	  content: "<h1>Brighton</h1><p>BN1 3FE</p>"
+  });
+  
+  var marker6 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(50.8243792,-0.1451556)),
+	  map: map,
+	  title:"Brighton"
+  });
+  
+  google.maps.event.addListener(marker6, 'click', function() {
+	infowindow6.open(map,marker6);
+  });
+var infowindow7 = new google.maps.InfoWindow({
+	  content: "<h1>Camden</h1><p>NW1 0DU</p>"
+  });
+  
+  var marker7 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.5377569,-0.1367745)),
+	  map: map,
+	  title:"Camden"
+  });
+  
+  google.maps.event.addListener(marker7, 'click', function() {
+	infowindow7.open(map,marker7);
+  });
+var infowindow8 = new google.maps.InfoWindow({
+	  content: "<h1>Cardiff</h1><p>Sequence Agency</p>"
+  });
+  
+  var marker8 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.4828565,-3.1686337)),
+	  map: map,
+	  title:"Cardiff"
+  });
+  
+  google.maps.event.addListener(marker8, 'click', function() {
+	infowindow8.open(map,marker8);
+  });
+var infowindow9 = new google.maps.InfoWindow({
+	  content: "<h1>Dublin</h1><p>...</p>"
+  });
+  
+  var marker9 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(53.344104,-6.2674937)),
+	  map: map,
+	  title:"Dublin"
+  });
+  
+  google.maps.event.addListener(marker9, 'click', function() {
+	infowindow9.open(map,marker9);
+  });
+var infowindow10 = new google.maps.InfoWindow({
+	  content: "<h1>Fluxx</h1><p>Fluxx Studios</p>"
+  });
+  
+  var marker10 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.5132707,-0.1025795)),
+	  map: map,
+	  title:"Fluxx"
+  });
+  
+  google.maps.event.addListener(marker10, 'click', function() {
+	infowindow10.open(map,marker10);
+  });
+var infowindow11 = new google.maps.InfoWindow({
+	  content: "<h1>Glasgow</h1><p>BBC Glasgow</p>"
+  });
+  
+  var marker11 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(55.864237,-4.251806)),
+	  map: map,
+	  title:"Glasgow"
+  });
+  
+  google.maps.event.addListener(marker11, 'click', function() {
+	infowindow11.open(map,marker11);
+  });
+var infowindow12 = new google.maps.InfoWindow({
+	  content: "<h1>Guildford</h1><p>University of Surrey</p>"
+  });
+  
+  var marker12 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.2425719,-0.5879459)),
+	  map: map,
+	  title:"Guildford"
+  });
+  
+  google.maps.event.addListener(marker12, 'click', function() {
+	infowindow12.open(map,marker12);
+  });
+var infowindow13 = new google.maps.InfoWindow({
+	  content: "<h1>Hackney</h1><p>Shoreditch Works</p>"
+  });
+  
+  var marker13 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.5228337,-0.0818134)),
+	  map: map,
+	  title:"Hackney"
+  });
+  
+  google.maps.event.addListener(marker13, 'click', function() {
+	infowindow13.open(map,marker13);
+  });
+var infowindow14 = new google.maps.InfoWindow({
+	  content: "<h1>Hartlepool</h1><p>...</p>"
+  });
+  
+  var marker14 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(54.691745,-1.212926)),
+	  map: map,
+	  title:"Hartlepool"
+  });
+  
+  google.maps.event.addListener(marker14, 'click', function() {
+	infowindow14.open(map,marker14);
+  });
+var infowindow15 = new google.maps.InfoWindow({
+	  content: "<h1>Hebden&nbsp;Bridge</h1><p>...</p>"
+  });
+  
+  var marker15 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(53.7405061,-2.0172614)),
+	  map: map,
+	  title:"Hebden&nbsp;Bridge"
+  });
+  
+  google.maps.event.addListener(marker15, 'click', function() {
+	infowindow15.open(map,marker15);
+  });
+var infowindow16 = new google.maps.InfoWindow({
+	  content: "<h1>Manchester</h1><p>M22 1QW</p>"
+  });
+  
+  var marker16 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(53.3739109,-2.2733369)),
+	  map: map,
+	  title:"Manchester"
+  });
+  
+  google.maps.event.addListener(marker16, 'click', function() {
+	infowindow16.open(map,marker16);
+  });
+var infowindow17 = new google.maps.InfoWindow({
+	  content: "<h1>Middlesbrough</h1><p>TS5 8PB</p>"
+  });
+  
+  var marker17 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(54.5440653,-1.2609711)),
+	  map: map,
+	  title:"Middlesbrough"
+  });
+  
+  google.maps.event.addListener(marker17, 'click', function() {
+	infowindow17.open(map,marker17);
+  });
+var infowindow18 = new google.maps.InfoWindow({
+	  content: "<h1>Norwich</h1><p>Neontribe</p>"
+  });
+  
+  var marker18 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(52.6308859,1.297355)),
+	  map: map,
+	  title:"Norwich"
+  });
+  
+  google.maps.event.addListener(marker18, 'click', function() {
+	infowindow18.open(map,marker18);
+  });
+var infowindow19 = new google.maps.InfoWindow({
+	  content: "<h1>Oxford</h1><p>OX4 6JZ</p>"
+  });
+  
+  var marker19 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.7224159,-1.2163649)),
+	  map: map,
+	  title:"Oxford"
+  });
+  
+  google.maps.event.addListener(marker19, 'click', function() {
+	infowindow19.open(map,marker19);
+  });
+var infowindow20 = new google.maps.InfoWindow({
+	  content: "<h1>Preston</h1><p>PR2 3SQ</p>"
+  });
+  
+  var marker20 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(53.7801417,-2.7254256)),
+	  map: map,
+	  title:"Preston"
+  });
+  
+  google.maps.event.addListener(marker20, 'click', function() {
+	infowindow20.open(map,marker20);
+  });
+var infowindow21 = new google.maps.InfoWindow({
+	  content: "<h1>Reading</h1><p>Microsoft Reading</p>"
+  });
+  
+  var marker21 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.4528837,-0.973906)),
+	  map: map,
+	  title:"Reading"
+  });
+  
+  google.maps.event.addListener(marker21, 'click', function() {
+	infowindow21.open(map,marker21);
+  });
+var infowindow22 = new google.maps.InfoWindow({
+	  content: "<h1>Rotherham</h1><p>Games Brittania, S60 1DX</p>"
+  });
+  
+  var marker22 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(53.4182501,-1.3849446)),
+	  map: map,
+	  title:"Rotherham"
+  });
+  
+  google.maps.event.addListener(marker22, 'click', function() {
+	infowindow22.open(map,marker22);
+  });
+var infowindow23 = new google.maps.InfoWindow({
+	  content: "<h1>Sheffield</h1><p>S35 8NN</p>"
+  });
+  
+  var marker23 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(53.4353831,-1.4859251)),
+	  map: map,
+	  title:"Sheffield"
+  });
+  
+  google.maps.event.addListener(marker23, 'click', function() {
+	infowindow23.open(map,marker23);
+  });
+var infowindow24 = new google.maps.InfoWindow({
+	  content: "<h1>Tyneside</h1><p>NE3 03RZ</p>"
+  });
+  
+  var marker24 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(55.0272543,-1.4414084)),
+	  map: map,
+	  title:"Tyneside"
+  });
+  
+  google.maps.event.addListener(marker24, 'click', function() {
+	infowindow24.open(map,marker24);
+  });
+var infowindow25 = new google.maps.InfoWindow({
+	  content: "<h1>Victoria</h1><p>Microsoft London</p>"
+  });
+  
+  var marker25 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.496778,-0.141477)),
+	  map: map,
+	  title:"Victoria"
+  });
+  
+  google.maps.event.addListener(marker25, 'click', function() {
+	infowindow25.open(map,marker25);
+  });
+var infowindow26 = new google.maps.InfoWindow({
+	  content: "<h1>Watford</h1><p>WD6 3EP</p>"
+  });
+  
+  var marker26 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.6451114,-0.2981027)),
+	  map: map,
+	  title:"Watford"
+  });
+  
+  google.maps.event.addListener(marker26, 'click', function() {
+	infowindow26.open(map,marker26);
+  });
+var infowindow27 = new google.maps.InfoWindow({
+	  content: "<h1>Westminster</h1><p>WC2R 0RL</p>"
+  });
+  
+  var marker27 = new google.maps.Marker({
+	  position: (new google.maps.LatLng(51.5095968,-0.1212646)),
+	  map: map,
+	  title:"Westminster"
+  });
+  
+  google.maps.event.addListener(marker27, 'click', function() {
+	infowindow27.open(map,marker27);
+  });
+    }
+  </script>
+</head>
+  <body onload="initialize()">
+    <div id="map_canvas" style="width: 100%; height: 100%;"></div>
+  </body>
+</head>
+</html>

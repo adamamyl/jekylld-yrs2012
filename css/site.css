@@ -1,0 +1,207 @@
+/*
+  Young Rewired State Styles
+  2012 Josh Pickett
+*/
+
+html { font-size: 100%; overflow-y: scroll; }
+
+body { margin: 0; font-size: 13px; line-height: 1.2; }
+
+body { background: #EEE; font-family: "Helvetica Neue", helvetica, arial, sans-serif; color: #555; }
+
+a, a:visited { 
+  -moz-transition: color .5s; /* Firefox 4 */
+  -webkit-transition: color .5s; /* Safari and Chrome */
+  -o-transition: color .5s; /* Opera */
+  transition: color .5s; 
+  color: #66A8CC;
+}
+/*a:hover, a:visited:hover { color: #fff; }*/
+
+.light a:hover, .light a:visited:hover { color: #000; }
+
+p { display: inline; line-height: 1.5em; color: #555; font-size: 15px; margin-top: 5px; padding: 5px; }
+
+.right { float: right;}
+.left { float: left;}
+
+th { background: #A04F33; color: #E6E6E6; border-right: 1px solid #333; border-bottom: 1px solid #333;}
+tr:nth-child(odd) {background: #E1E1E1}
+tr { background: #FFF;}
+td { border-right: 1px solid #333;}
+
+table { width: 100%; border: 1px solid #333; }
+
+.container { overflow: auto; width: 960px; margin: 0px auto; padding: 10px; background: #FFF;}
+
+.clear { clear:both; line-height:0; }
+
+/* HEADING STYLES
+---------------------------------------------------------*/
+h1,h2,h3 { font-weight: normal; font-family: "Gotham-Bold", "Helvetica Neue", helvetica, arial, sans-serif; }
+
+h1 { font-size: 36px; line-height: 1.5; }
+h2 { text-align: left !important; padding-bottom: 5px; margin-bottom: .5em; line-height: 1.5em; font-size: 22px; color: #555; font-weight: 700; border-bottom: 1px solid #d1d1d1;}
+
+h3 { font-size: 22px; line-height: 1.5; }
+
+.dark h1 { color: #fff; text-shadow: 3px 3px 4px rgba(0,0,0,.5); }
+
+/* TITLE STYLES
+---------------------------------------------------------*/
+.title h1 { text-align: left !important; padding-top: 10px; padding-bottom: 5px; margin-bottom: 40px !important; margin-top: 0px !important; line-height: 1.5em; font-size: 35px; color: #B63322; font-weight: 700; border-bottom: 1px solid #d1d1d1;}
+.title h2 { text-align: left !important; padding-top: 20px; padding-bottom: 5px; margin-bottom: 40px !important; margin-top: 0px !important; line-height: 1.5em; font-size: 22px; color: #555; font-weight: 700; border-bottom: 1px solid #d1d1d1;}
+.title h4 { font-size: 18px; font-weight: 500; color: #B63322;  }
+
+/* GRID STYLES
+---------------------------------------------------------*/
+.grid3 { width: 296px; margin: 10px; vertical-align: top; display: inline-block; padding: 0px; text-align: left !important; }
+.grid3 h2 { line-height: 1.5em; color: #333; font-size: 21px; margin-top: 5px; padding: 5px; margin-bottom: 0px;}
+.grid3 p { line-height: 1.5em; color: #555; font-size: 15px; margin-top: 5px; padding: 5px;  }
+
+
+/* HEADER STYLES
+-------------------------------------------------------------------------------- */
+header {
+  display: block; width: 100%; position: fixed; height: 40px; border-bottom: 1px solid #1A1A1A; z-index: 1;
+  background: #000;
+  background: -moz-linear-gradient(top,  #555 0%, #2b2b2b 50%, #262626 50%, #090909 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#484848), color-stop(50%,#2b2b2b), color-stop(50%,#262626), color-stop(100%,#090909));
+  background: -webkit-linear-gradient(top,  #484848 0%,#2b2b2b 50%,#262626 50%,#090909 100%);
+  background: -o-linear-gradient(top,  #484848 0%,#2b2b2b 50%,#262626 50%,#090909 100%);
+  background: -ms-linear-gradient(top,  #484848 0%,#2b2b2b 50%,#262626 50%,#090909 100%);
+  background: linear-gradient(top,  #484848 0%,#2b2b2b 50%,#262626 50%,#090909 100%); 
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+header #logo { text-decoration: none; font-size: 20px; font-family: "Gill Sans"; color: #fff; float: left; margin-left: 10px; }
+header nav { text-transform: uppercase; float: right; margin-right: 10px; }
+header nav a, header nav a:visited { font-size: 14px; line-height: 1.4em; float: left; margin: 2px 0 0 30px; color: #777; text-decoration: none; font-family: helvetica, arial, sans-serif; }
+header nav a#nav_setup { padding-left: 25px; background: url("/img/menu-html5.png") left top no-repeat; }
+header nav a#nav_setup:hover { background-position: 0 -40px; }
+header .container {background: none;}
+#selected { color: #fff; }
+
+
+/* FOOTER STYLES
+-------------------------------------------------------------------------------- */
+footer { background: #A04F33; border-top: 1px solid #666; clear: both; 
+  -webkit-box-shadow: 0px -3px 3px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px -3px 3px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px -3px 3px 0px rgba(0, 0, 0, 0.3);
+
+}
+footer a:hover, footer a:visited:hover { color: #333; }
+footer .container { background: none;}
+footer h4 { color: #fff; display: inline;}
+footer a { color: #fff !important; display: inline; }
+.desc_footer { background: #999; }
+
+
+/*  PAGE STYLES
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------*/
+
+/* SECTION 1
+-------------------------------------------------------------------------------- */
+#section1 { position: relative; display: block; clear: both; padding-bottom: 30px;}
+#section1 .container { padding-top: 50px; }
+#html5header { background: url('../img/html5header.png') center center no-repeat; height: 350px; /*border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;*/}
+.title h2 { text-align: left !important; padding-top: 20px; padding-bottom: 5px; margin-bottom: 10px !important; margin-top: 0px !important; line-height: 1.5em; font-size: 24px; color: #444; font-weight: 700;}
+#lastvideo { display: inline-block; margin-right: 10px; float: right; }
+.lastimg { width: 100%; height: 150px; background: #EEE; display: block; text-align: center;}
+#section1 img { float: left; margin-left: 10px; margin-right: 10px; display: block;}
+
+
+/* SECTION 2
+-------------------------------------------------------------------------------- */
+#section2 .container { background: #EEE;}
+
+
+/* SECTION 3
+-------------------------------------------------------------------------------- */
+#section3 { position: relative; display: block; clear: both;}
+#section3 .grid3 { margin-bottom: 50px;}
+
+
+/* SECTION 4
+-------------------------------------------------------------------------------- */
+#section4 { position: relative; display: block; clear: both; padding-bottom: 10px;}
+
+/* SECTION 5
+-------------------------------------------------------------------------------- */
+#section5 { position: relative; display: block; clear: both; padding-bottom: 30px;}
+#section5 .container { background: #EEE; }
+
+
+/* SECTION 6
+-------------------------------------------------------------------------------- */
+#section6 .container { padding-bottom: 50px;}
+#cntdwn { background: #000; margin-top: 0px; }
+#cntdwn h3 { margin-top: 0px; margin-left: 8px; font-size: 32px; margin-bottom: 5px;}
+#edu_links { width: 638px; float: right; }
+#edu_links .title { margin-left: 10px; }
+
+
+#rightdiv { margin-top: 40px; padding: 10px; padding-top: 0px; float: right; width: 270px; border-left: 1px solid #d1d1d1;}
+#leftdiv { padding: 10px; padding-top: 30px; float: left; width: 640px; }
+#leftdivblog { padding: 10px; padding-top: 30px; float: left; width: 940px; }
+#leftdivblog .text {  margin-left: 140px; }
+#leftdivblog .entry { margin-bottom: 50px; }
+
+#form .container { padding-top: 40px; }
+
+
+
+p.cal { padding:4px; margin: 20px 0px -65px; border:solid 6px #b63322; text-align:center; float:left;
+    -moz-border-radius: 10px;-moz-box-shadow: 1px 1px 1px #ccc;-moz-transform:rotate(-15deg);
+    -webkit-border-radius: 10px;-webkit-box-shadow: 1px 1px 1px #ccc;-webkit-transform:rotate(-15deg);
+    border-radius: 10px;box-shadow: 1px 1px 1px #ccc;transform:rotate(-15deg);        
+    }
+p.cal span { width: 100px; display:block; color:#808080; font-size:0.9em;}
+
+div#quote-container,
+.splash-button2 {
+  width: 700px;
+	background: url('../img/tweetbg.png') repeat;
+}
+
+#content blockquote {
+	padding: 15px;
+	font-size: 1.2em;
+}
+
+div#quote-container {
+/*	background-color: orange; */
+	padding: 10px;
+	overflow: hidden;
+	height: 50px;
+}
+	div#quote-container .quote {
+		padding: 10px;
+		display: none;
+		width: 680px;
+		/*background-color: white;*/
+	}
+		div#quote-container .quote.first {
+			display: block;
+		}
+	div#quote-container .quote img {
+		float: left;
+		margin-right: 10px;
+	}
+	div#quote-container .quote p {
+		text-align: left;
+		font-family: 'Kreon', arial, serif;
+		font-size: 1.75em;
+		line-height: 1.2em;
+		font-style: italic;
+	  	color: #000000;
+	}
+		div#quote-container .quote.first p {
+			font-style: normal;
+			margin-left: 0;
+			text-align: center;
+		}
