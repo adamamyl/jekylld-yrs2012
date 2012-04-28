@@ -129,20 +129,30 @@ footer a { color: #fff !important; display: inline; }
 /* SECTION 4
 -------------------------------------------------------------------------------- */
 #section4 { position: relative; display: block; clear: both; padding-bottom: 10px;}
+#section4 .container { background: #EEE;}
 
 /* SECTION 5
 -------------------------------------------------------------------------------- */
 #section5 { position: relative; display: block; clear: both; padding-bottom: 30px;}
-#section5 .container { background: #EEE; }
 
 
 /* SECTION 6
 -------------------------------------------------------------------------------- */
-#section6 .container { padding-bottom: 50px;}
+#section6 .container { padding-bottom: 50px; background: #EEE;}
 #cntdwn { background: #000; margin-top: 0px; }
 #cntdwn h3 { margin-top: 0px; margin-left: 8px; font-size: 32px; margin-bottom: 5px;}
 #edu_links { width: 638px; float: right; }
 #edu_links .title { margin-left: 10px; }
+
+/* SECTION 7
+-------------------------------------------------------------------------------- */
+#section7 { position: relative; display: block; clear: both;}
+
+
+/* SECTION 8
+-------------------------------------------------------------------------------- */
+#section8 { position: relative; display: block; clear: both;}
+#section8 .container { background: #EEE;}
 
 
 #rightdiv { margin-top: 40px; padding: 10px; padding-top: 0px; float: right; width: 270px; border-left: 1px solid #d1d1d1;}
