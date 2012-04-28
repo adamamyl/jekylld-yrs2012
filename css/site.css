@@ -20,7 +20,7 @@ a, a:visited {
 
 .light a:hover, .light a:visited:hover { color: #000; }
 
-p { display: inline; line-height: 1.5em; color: #555; font-size: 15px; margin-top: 5px; padding: 5px; }
+p { line-height: 1.5em; color: #555; font-size: 15px; margin-top: 5px; padding: 5px; }
 
 .right { float: right;}
 .left { float: left;}
