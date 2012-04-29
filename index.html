@@ -150,9 +150,42 @@ title: 2012
       </script>
       <script language="JavaScript" src="js/mylibs/countdown.js"></script>
       <p>In the mean time, you might want to brush up on your coding skills by visiting some of these links (don't worry, it's not compulsory!)</p>
-    </div><!-- closing grid3 -->
 
+      <br />
 
+      <h2>On twitters</h2>
+      <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+      <script>
+        new TWTR.Widget({
+          version: 2,
+          type: 'search',
+          search: '#yrs2012',
+          interval: 30000,
+          title: '',
+          subject: '',
+          width: 250,
+          height: 300,
+          theme: {
+            shell: {
+              background: '#000000',
+              color: '#ffffff'
+            },
+            tweets: {
+              background: '#fffffff',
+              color: '#cccccc',
+              links: '#1985b5'
+            }
+          },
+          features: {
+            scrollbar: false,
+            loop: true,
+            live: true,
+            behavior: 'default'
+          }
+          }).render().start();
+      </script>
+    </div><!-- close grid3 -->
+        
   <div id="edu_links">
 
     {% include resources.html %}
