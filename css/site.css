@@ -15,6 +15,7 @@ a, a:visited {
   -o-transition: color .5s; /* Opera */
   transition: color .5s; 
   color: #66A8CC;
+  text-decoration: none;
 }
 /*a:hover, a:visited:hover { color: #fff; }*/
 
@@ -75,7 +76,7 @@ header {
   -moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
 }
-header #logo { text-decoration: none; font-size: 20px; font-family: "Gill Sans"; color: #fff; float: left; margin-left: 10px; }
+header #logo { text-decoration: none; font-size: 20px; font-family: "Gill Sans", "Gill Sans MT", helvetica, sans-serif; color: #fff; float: left; margin-left: 10px; }
 header nav { text-transform: uppercase; float: right; margin-right: 10px; }
 header nav a, header nav a:visited { font-size: 14px; line-height: 1.4em; float: left; margin: 2px 0 0 30px; color: #777; text-decoration: none; font-family: helvetica, arial, sans-serif; }
 header nav a#nav_setup { padding-left: 25px; background: url("/img/menu-html5.png") left top no-repeat; }
@@ -108,7 +109,7 @@ footer a { color: #fff !important; display: inline; }
 -------------------------------------------------------------------------------- */
 #section1 { position: relative; display: block; clear: both; padding-bottom: 30px;}
 #section1 .container { padding-top: 50px; }
-#html5header { background: url('../img/html5header.png') center center no-repeat; height: 350px; /*border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;*/}
+#html5header { background: url('/img/html5header.png') center center no-repeat; height: 350px; /*border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;*/}
 .title h2 { text-align: left !important; padding-top: 20px; padding-bottom: 5px; margin-bottom: 10px !important; margin-top: 0px !important; line-height: 1.5em; font-size: 24px; color: #444; font-weight: 700;}
 #lastvideo { display: inline-block; margin-right: 10px; float: right; }
 .lastimg { width: 100%; height: 150px; background: #EEE; display: block; text-align: center;}
@@ -175,7 +176,7 @@ p.cal span { width: 100px; display:block; color:#808080; font-size:0.9em;}
 div#quote-container,
 .splash-button2 {
   width: 700px;
-	background: url('../img/tweetbg.png') repeat;
+	background: url('/img/tweetbg.png') repeat;
 }
 
 #content blockquote {
