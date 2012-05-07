@@ -93,10 +93,13 @@ footer { background: #A04F33; border-top: 1px solid #666; clear: both;
   box-shadow: 0px -3px 3px 0px rgba(0, 0, 0, 0.3);
 
 }
+
 footer a:hover, footer a:visited:hover { color: #333; }
 footer .container { background: none;}
+
 footer h4 { color: #fff; display: inline;}
-footer a { color: #fff !important; display: inline; }
+footer a { color: #fff; display: inline;}
+footer h4 a { color: #ead6b9; display: inline; }
 .desc_footer { background: #999; }
 
 
