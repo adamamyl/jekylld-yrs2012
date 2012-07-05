@@ -253,3 +253,7 @@ div#quote-container {
 	float: left;
 	width: 700px;
 }
+
+#blah {
+	display: block;
+}
