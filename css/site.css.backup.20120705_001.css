@@ -219,37 +219,3 @@ div#quote-container {
 			margin-left: 0;
 			text-align: center;
 		}
-
-/* FESTIVAL
--------------------------------------------------------------------------------- */
-
-
-.right {
-	text-align: right;
-}
-
-.left {
-	text-align: left;
-}
-
-.pic1 {
-	float: left;
-	width: 225px;
-	padding-right: 35px;
-}
-
-.aside1 {
-	float: right;
-	width: 700px;
-}
-
-.pic2 {
-	float: right;
-	width: 225px;
-	padding-left: 35px;
-}
-
-.aside2 {
-	float: left;
-	width: 700px;
-}
