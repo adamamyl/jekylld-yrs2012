@@ -111,7 +111,9 @@ footer h4 a { color: #ead6b9; display: inline; }
 /* SECTION 1
 -------------------------------------------------------------------------------- */
 #section1 { position: relative; display: block; clear: both; padding-bottom: 30px;}
-#section1 .container { padding-top: 50px; }
+#section1 .container { padding-top: 20px; }
+.ticker { margin: 0; padding: 0; width:960px; height: 20px; font-size: 16px; position: relative; }
+.ticker li { float: left; padding-right: 40px;}
 #html5header { background: url('/img/html5header.png') center center no-repeat; height: 350px; /*border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;*/}
 .title h2 { text-align: left !important; padding-top: 20px; padding-bottom: 5px; margin-bottom: 10px !important; margin-top: 0px !important; line-height: 1.5em; font-size: 24px; color: #444; font-weight: 700;}
 #lastvideo { display: inline-block; margin-right: 10px; float: right; }
